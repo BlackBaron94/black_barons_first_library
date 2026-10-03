@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "black_barons_first_library"
+version = "0.1.0"
+description = "My first attempt at making a downloadable Python library"
+authors = [
+    { name = "Black Baron", email = "black_baron94@hotmail.com" }
+]
+dependencies = [
+    # "requests>=2.28.0",
+]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]
